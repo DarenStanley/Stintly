@@ -1,0 +1,2 @@
+# Stintly
+Stint Planner
