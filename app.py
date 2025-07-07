@@ -21,7 +21,7 @@ def check_password():
 
 if check_password():
     # Your app code here
-    st.write("Welcome to the private app!")
+    st.write("Welcome to Stintly, your friendly 24Hrs du Mans stint planner!")
 
 
     import pandas as pd
