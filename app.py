@@ -1,12 +1,6 @@
 import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-import matplotlib.patches as mpatches
-import matplotlib.dates as mdates
-import datetime
-import matplotlib.colors as mcolors
-import numpy as np
 
+# Password protection for the app
 def check_password():
     def password_entered():
         if st.session_state["password"] == "MeAmBarbarian":
@@ -31,6 +25,13 @@ if check_password():
 
 check_password()
 
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import matplotlib.dates as mdates
+import datetime
+import matplotlib.colors as mcolors
+import numpy as np
 
 dawn_duration = 60  # minutes
 dusk_duration = 60  # minutes
