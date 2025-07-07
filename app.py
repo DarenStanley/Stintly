@@ -23,7 +23,6 @@ if check_password():
     # Your app code here
     st.write("Welcome to the private app!")
 
-check_password()
 
 import pandas as pd
 import matplotlib.pyplot as plt
